@@ -1,0 +1,151 @@
+{
+  "info": {
+    "id": "ses_f8f9042f0ffe0duDszfT8uXlDU",
+    "slug": "silent-nebula",
+    "projectID": "global",
+    "directory": "/root/new/tron",
+    "path": "root/new/tron",
+    "title": "Save Phrase and Reply Verbatim",
+    "agent": "build",
+    "model": {
+      "id": "sonnet",
+      "providerID": "claude-code",
+      "variant": "default"
+    },
+    "version": "1.18.28",
+    "summary": {
+      "additions": 0,
+      "deletions": 0,
+      "files": 0
+    },
+    "cost": 0,
+    "tokens": {
+      "input": 14399,
+      "output": 3,
+      "reasoning": 0,
+      "cache": {
+        "read": 0,
+        "write": 0
+      }
+    },
+    "permission": [
+      {
+        "permission": "question",
+        "pattern": "*",
+        "action": "deny"
+      },
+      {
+        "permission": "plan_enter",
+        "pattern": "*",
+        "action": "deny"
+      },
+      {
+        "permission": "plan_exit",
+        "pattern": "*",
+        "action": "deny"
+      }
+    ],
+    "time": {
+      "created": 1788592766224,
+      "updated": 1788592788827
+    }
+  },
+  "messages": [
+    {
+      "info": {
+        "role": "user",
+        "time": {
+          "created": 1788592766290
+        },
+        "agent": "build",
+        "model": {
+          "providerID": "claude-code",
+          "modelID": "sonnet"
+        },
+        "summary": {
+          "diffs": []
+        },
+        "id": "msg_0706fbd52001ornAu48agyWM0P",
+        "sessionID": "ses_f8f9042f0ffe0duDszfT8uXlDU"
+      },
+      "parts": [
+        {
+          "type": "text",
+          "text": "\"Remember this phrase for later: PURPLE_ELEPHANT_42. Reply with exactly: SAVED_ON_GPU\"",
+          "id": "prt_0706fbd5b001b326qdbml7bn2C",
+          "sessionID": "ses_f8f9042f0ffe0duDszfT8uXlDU",
+          "messageID": "msg_0706fbd52001ornAu48agyWM0P"
+        }
+      ]
+    },
+    {
+      "info": {
+        "parentID": "msg_0706fbd52001ornAu48agyWM0P",
+        "role": "assistant",
+        "mode": "build",
+        "agent": "build",
+        "path": {
+          "cwd": "/root/new/tron",
+          "root": "/"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 14402,
+          "input": 14399,
+          "output": 3,
+          "reasoning": 0,
+          "cache": {
+            "write": 0,
+            "read": 0
+          }
+        },
+        "modelID": "sonnet",
+        "providerID": "claude-code",
+        "time": {
+          "created": 1788592766845,
+          "completed": 1788592788805
+        },
+        "finish": "stop",
+        "id": "msg_0706fbf7d0017He3X0XGYdBUDW",
+        "sessionID": "ses_f8f9042f0ffe0duDszfT8uXlDU"
+      },
+      "parts": [
+        {
+          "type": "step-start",
+          "id": "prt_0707011ac001bafBY94ctqIyCf",
+          "sessionID": "ses_f8f9042f0ffe0duDszfT8uXlDU",
+          "messageID": "msg_0706fbf7d0017He3X0XGYdBUDW"
+        },
+        {
+          "type": "text",
+          "text": "SAVED_ON_GPU",
+          "time": {
+            "start": 1788592787900,
+            "end": 1788592788791
+          },
+          "id": "prt_0707011bc001Nj5mAM4S1v6sI6",
+          "sessionID": "ses_f8f9042f0ffe0duDszfT8uXlDU",
+          "messageID": "msg_0706fbf7d0017He3X0XGYdBUDW"
+        },
+        {
+          "reason": "stop",
+          "type": "step-finish",
+          "tokens": {
+            "total": 14402,
+            "input": 14399,
+            "output": 3,
+            "reasoning": 0,
+            "cache": {
+              "write": 0,
+              "read": 0
+            }
+          },
+          "cost": 0,
+          "id": "prt_07070153c0013KqbKTSkBPdhHw",
+          "sessionID": "ses_f8f9042f0ffe0duDszfT8uXlDU",
+          "messageID": "msg_0706fbf7d0017He3X0XGYdBUDW"
+        }
+      ]
+    }
+  ]
+}
