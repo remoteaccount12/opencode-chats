@@ -1,0 +1,97 @@
+{
+  "info": {
+    "id": "ses_f8f7b38ecffevu9rNNIxamlpYG",
+    "slug": "silent-wolf",
+    "projectID": "global",
+    "directory": "/root/new/tron",
+    "path": "root/new/tron",
+    "title": "Files AVL Overview",
+    "agent": "build",
+    "model": {
+      "id": "sonnet",
+      "providerID": "claude-code",
+      "variant": "high"
+    },
+    "version": "1.18.28",
+    "summary": {
+      "additions": 0,
+      "deletions": 0,
+      "files": 0
+    },
+    "cost": 0,
+    "tokens": {
+      "input": 0,
+      "output": 0,
+      "reasoning": 0,
+      "cache": {
+        "read": 0,
+        "write": 0
+      }
+    },
+    "time": {
+      "created": 1788594145043,
+      "updated": 1788594145161
+    }
+  },
+  "messages": [
+    {
+      "info": {
+        "role": "user",
+        "time": {
+          "created": 1788594145088
+        },
+        "agent": "build",
+        "model": {
+          "providerID": "claude-code",
+          "modelID": "sonnet",
+          "variant": "high"
+        },
+        "summary": {
+          "diffs": []
+        },
+        "id": "msg_07084c740001lRxgEkKzSfMNx1",
+        "sessionID": "ses_f8f7b38ecffevu9rNNIxamlpYG"
+      },
+      "parts": [
+        {
+          "type": "text",
+          "text": "what are the files avl??",
+          "id": "prt_07084c743001fu2imvZ9g1YAYD",
+          "sessionID": "ses_f8f7b38ecffevu9rNNIxamlpYG",
+          "messageID": "msg_07084c740001lRxgEkKzSfMNx1"
+        }
+      ]
+    },
+    {
+      "info": {
+        "parentID": "msg_07084c740001lRxgEkKzSfMNx1",
+        "role": "assistant",
+        "mode": "build",
+        "agent": "build",
+        "variant": "high",
+        "path": {
+          "cwd": "/root/new/tron",
+          "root": "/"
+        },
+        "cost": 0,
+        "tokens": {
+          "input": 0,
+          "output": 0,
+          "reasoning": 0,
+          "cache": {
+            "read": 0,
+            "write": 0
+          }
+        },
+        "modelID": "sonnet",
+        "providerID": "claude-code",
+        "time": {
+          "created": 1788594145115
+        },
+        "id": "msg_07084c75b001w3w4NYFY522h2C",
+        "sessionID": "ses_f8f7b38ecffevu9rNNIxamlpYG"
+      },
+      "parts": []
+    }
+  ]
+}
