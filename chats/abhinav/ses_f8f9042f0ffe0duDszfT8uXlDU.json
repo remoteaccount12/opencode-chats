@@ -3,8 +3,8 @@
     "id": "ses_f8f9042f0ffe0duDszfT8uXlDU",
     "slug": "silent-nebula",
     "projectID": "global",
-    "directory": "/Users/abhinav.raj/Documents/all/h1",
-    "path": "Users/abhinav.raj/Documents/all/h1",
+    "directory": "/",
+    "path": "",
     "title": "Save Phrase and Reply Verbatim",
     "agent": "build",
     "model": {
@@ -47,7 +47,7 @@
     ],
     "time": {
       "created": 1788592766224,
-      "updated": 1788592788827
+      "updated": 1788593546670
     }
   },
   "messages": [
@@ -57,13 +57,13 @@
         "time": {
           "created": 1788592766290
         },
-        "summary": {
-          "diffs": []
-        },
         "agent": "build",
         "model": {
           "providerID": "claude-code",
           "modelID": "sonnet"
+        },
+        "summary": {
+          "diffs": []
         },
         "id": "msg_0706fbd52001ornAu48agyWM0P",
         "sessionID": "ses_f8f9042f0ffe0duDszfT8uXlDU"
@@ -80,14 +80,8 @@
     },
     {
       "info": {
-        "role": "assistant",
-        "time": {
-          "created": 1788592766845,
-          "completed": 1788592788805
-        },
         "parentID": "msg_0706fbd52001ornAu48agyWM0P",
-        "modelID": "sonnet",
-        "providerID": "claude-code",
+        "role": "assistant",
         "mode": "build",
         "agent": "build",
         "path": {
@@ -101,9 +95,15 @@
           "output": 3,
           "reasoning": 0,
           "cache": {
-            "read": 0,
-            "write": 0
+            "write": 0,
+            "read": 0
           }
+        },
+        "modelID": "sonnet",
+        "providerID": "claude-code",
+        "time": {
+          "created": 1788592766845,
+          "completed": 1788592788805
         },
         "finish": "stop",
         "id": "msg_0706fbf7d0017He3X0XGYdBUDW",
@@ -128,19 +128,19 @@
           "messageID": "msg_0706fbf7d0017He3X0XGYdBUDW"
         },
         {
-          "type": "step-finish",
           "reason": "stop",
-          "cost": 0,
+          "type": "step-finish",
           "tokens": {
             "total": 14402,
             "input": 14399,
             "output": 3,
             "reasoning": 0,
             "cache": {
-              "read": 0,
-              "write": 0
+              "write": 0,
+              "read": 0
             }
           },
+          "cost": 0,
           "id": "prt_07070153c0013KqbKTSkBPdhHw",
           "sessionID": "ses_f8f9042f0ffe0duDszfT8uXlDU",
           "messageID": "msg_0706fbf7d0017He3X0XGYdBUDW"
