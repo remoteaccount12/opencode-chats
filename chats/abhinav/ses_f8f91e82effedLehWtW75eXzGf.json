@@ -3,8 +3,8 @@
     "id": "ses_f8f91e82effedLehWtW75eXzGf",
     "slug": "happy-island",
     "projectID": "global",
-    "directory": "/root/new/tron",
-    "path": "root/new/tron",
+    "directory": "/Users/abhinav.raj/Documents/all/h1",
+    "path": "Users/abhinav.raj/Documents/all/h1",
     "title": "Save Phrase PURPLE_ELEPHANT_42 Request",
     "agent": "build",
     "model": {
@@ -57,13 +57,13 @@
         "time": {
           "created": 1788592658451
         },
+        "summary": {
+          "diffs": []
+        },
         "agent": "build",
         "model": {
           "providerID": "claude-code",
           "modelID": "sonnet"
-        },
-        "summary": {
-          "diffs": []
         },
         "id": "msg_0706e1813001Yxm00W0DCIGU70",
         "sessionID": "ses_f8f91e82effedLehWtW75eXzGf"
@@ -80,8 +80,13 @@
     },
     {
       "info": {
-        "parentID": "msg_0706e1813001Yxm00W0DCIGU70",
         "role": "assistant",
+        "time": {
+          "created": 1788592659000
+        },
+        "parentID": "msg_0706e1813001Yxm00W0DCIGU70",
+        "modelID": "sonnet",
+        "providerID": "claude-code",
         "mode": "build",
         "agent": "build",
         "path": {
@@ -97,11 +102,6 @@
             "read": 0,
             "write": 0
           }
-        },
-        "modelID": "sonnet",
-        "providerID": "claude-code",
-        "time": {
-          "created": 1788592659000
         },
         "id": "msg_0706e1a38001JYtflmBUOSHpNa",
         "sessionID": "ses_f8f91e82effedLehWtW75eXzGf"
