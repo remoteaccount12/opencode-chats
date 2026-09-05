@@ -1,0 +1,112 @@
+{
+  "info": {
+    "id": "ses_f8f91e82effedLehWtW75eXzGf",
+    "slug": "happy-island",
+    "projectID": "global",
+    "directory": "/root/new/tron",
+    "path": "root/new/tron",
+    "title": "Save Phrase PURPLE_ELEPHANT_42 Request",
+    "agent": "build",
+    "model": {
+      "id": "sonnet",
+      "providerID": "claude-code",
+      "variant": "default"
+    },
+    "version": "1.18.28",
+    "summary": {
+      "additions": 0,
+      "deletions": 0,
+      "files": 0
+    },
+    "cost": 0,
+    "tokens": {
+      "input": 0,
+      "output": 0,
+      "reasoning": 0,
+      "cache": {
+        "read": 0,
+        "write": 0
+      }
+    },
+    "permission": [
+      {
+        "permission": "question",
+        "pattern": "*",
+        "action": "deny"
+      },
+      {
+        "permission": "plan_enter",
+        "pattern": "*",
+        "action": "deny"
+      },
+      {
+        "permission": "plan_exit",
+        "pattern": "*",
+        "action": "deny"
+      }
+    ],
+    "time": {
+      "created": 1788592658385,
+      "updated": 1788592659047
+    }
+  },
+  "messages": [
+    {
+      "info": {
+        "role": "user",
+        "time": {
+          "created": 1788592658451
+        },
+        "agent": "build",
+        "model": {
+          "providerID": "claude-code",
+          "modelID": "sonnet"
+        },
+        "summary": {
+          "diffs": []
+        },
+        "id": "msg_0706e1813001Yxm00W0DCIGU70",
+        "sessionID": "ses_f8f91e82effedLehWtW75eXzGf"
+      },
+      "parts": [
+        {
+          "type": "text",
+          "text": "\"Remember this phrase for later: PURPLE_ELEPHANT_42. Reply with exactly: SAVED_ON_GPU\"",
+          "id": "prt_0706e181c001S7QfdsU9n7y0yu",
+          "sessionID": "ses_f8f91e82effedLehWtW75eXzGf",
+          "messageID": "msg_0706e1813001Yxm00W0DCIGU70"
+        }
+      ]
+    },
+    {
+      "info": {
+        "parentID": "msg_0706e1813001Yxm00W0DCIGU70",
+        "role": "assistant",
+        "mode": "build",
+        "agent": "build",
+        "path": {
+          "cwd": "/root/new/tron",
+          "root": "/"
+        },
+        "cost": 0,
+        "tokens": {
+          "input": 0,
+          "output": 0,
+          "reasoning": 0,
+          "cache": {
+            "read": 0,
+            "write": 0
+          }
+        },
+        "modelID": "sonnet",
+        "providerID": "claude-code",
+        "time": {
+          "created": 1788592659000
+        },
+        "id": "msg_0706e1a38001JYtflmBUOSHpNa",
+        "sessionID": "ses_f8f91e82effedLehWtW75eXzGf"
+      },
+      "parts": []
+    }
+  ]
+}
